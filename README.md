@@ -33,8 +33,9 @@ Switch instantly between three desktop modes without logging out:
 
 **⚡ Graphics & GPU Stack**  
 - Full **DRM** + `libdrm` support.  
-- **Mesa 3D Graphics Library** with LLVMpipe software rendering and VirGL hardware acceleration (QEMU/VirtIO).  
-- Ready for real hardware acceleration: **Intel (iris)**, **AMD (radeonsi)**, and **NVIDIA (nouveau)**.
+- **Mesa 3D Graphics Library** fully ported with **OpenGL** and **Vulkan** drivers.  
+- Hardware acceleration ready for: **AMD (radeonsi / RADV)**, **Intel (iris)**, and **NVIDIA (nouveau)**.  
+- Works with both built-in GPUs and discrete graphics cards.
 
 **🗄️ Custom File System: FFS**  
 - Copy-on-Write (CoW), B-Tree indexing.  
@@ -61,7 +62,7 @@ Switch instantly between three desktop modes without logging out:
 | **Windowing** | Yutani Compositor |
 | **UI Toolkit** | LVGL + Custom C++ Shell |
 | **File System** | Futura File System (FFS) |
-| **Graphics** | DRM + Mesa (LLVMpipe / VirGL / Hardware) |
+| **Graphics** | DRM + Mesa (OpenGL / Vulkan / LLVMpipe / VirGL) |
 | **Hardware** | Intel 7-Series, xHCI/EHCI, SATA AHCI, Intel HD Audio |
 
 ---
