@@ -23,7 +23,7 @@ FuturaOS is built differently:
 
 ## ✨ Key Features
 
-"**Three desktops. One OS. No restarts.**"
+**"Three desktops. One OS. No restarts."**
 
 **🖥️ Multi-Paradigm Window Manager**  
 Switch instantly between three desktop modes without logging out:
@@ -116,15 +116,13 @@ FuturaOS is **closed-source** at the kernel level, but we welcome:
 The core OS source code is **proprietary and closed-source**.  
 Third-party libraries (Mesa, LLVM, LVGL, etc.) are available under their respective open-source licenses.
 
-For commercial licensing, OEM partnerships, or custom builds, contact: **["Your Email / Contact Here"]**
+For commercial licensing, OEM partnerships, or custom builds, contact: **alexsey.websites.work@gmail.com**
 
 ---
 
 ## 🔗 Links
 
-- [Official Website]("") *(if available)*
-- [Developer Documentation](doc/README.md)
-- [Hardware Compatibility](#)
+- [Official Website]("https://futuraos.ru")
 
 ---
 
