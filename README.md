@@ -9,7 +9,7 @@ Built for stability, performance, and a developer-first desktop experience.
 
 ## 🚀 Overview
 
-FuturaOS is not "just another hobby OS". It is a purpose-built, high-performance operating system written in C and C++. It features a custom microkernel architecture (FuturaKernel), a hybrid window manager, and a built-in application store.
+FuturaOS is not "just another hobby OS". It is a purpose-built, high-performance operating system written in C and C++. It features a **hybrid kernel architecture** (FuturaKernel), a multi-paradigm window manager, a custom file system, and a built-in application store.
 
 We are redefining what a modern OS should be: **Stability without bloat, performance without compromise.**
 
@@ -35,7 +35,7 @@ Switch seamlessly between three entirely different desktop modes **without resta
 
 **🛒 Futura Store & Ecosystem**
 - Package manager with `.fos` (Futura OS) packages.
-- Built-in **FuturaID** (RSA-512 + SHA256) for a decentralized identity and software signing.
+- Built-in **FuturaID** (RSA-512 + SHA256) for decentralized identity and software signing.
 
 **🌐 Networking & Web**
 - Built-in web browser with **HTTP/HTTPS (TLS 1.2+) support via mbedTLS**.
@@ -48,7 +48,7 @@ Switch seamlessly between three entirely different desktop modes **without resta
 
 | Layer | Technology |
 | :--- | :--- |
-| **Kernel** | FuturaKernel (x86_64, 64-bit) |
+| **Kernel** | FuturaKernel (Hybrid Kernel, x86_64, 64-bit) |
 | **Windowing** | Yutani Compositor |
 | **UI Toolkit** | LVGL (Embedded UI) + Custom C++ Shell |
 | **File System** | Custom FFS |
@@ -62,7 +62,7 @@ Switch seamlessly between three entirely different desktop modes **without resta
 - `base/` — Root filesystem image, configuration files, and kernel modules.
 - `apps/` — First-party system applications (Terminal, File Browser, Web Browser, Settings).
 - `kernel/` — FuturaKernel core (boot, process, memory management, VFS).
-- `modules/` — Hardware drivers (USB, Wi-Fi, Audio, GPU).
+- `modules/` — Loadable kernel modules (USB, Wi-Fi, Audio, GPU).
 - `services/` — System services (GPU manager, Filesystem bridge, Sound).
 - `tools/` — Build scripts, QEMU launchers, and flashing utilities.
 
@@ -121,4 +121,4 @@ For commercial licensing, OEM partnerships, or custom builds, please contact: **
 
 ---
 
-> **Copyright © 2026 FuturaOS. All rights reserved.******
+> **Copyright © 2026 FuturaOS. All rights reserved.**
