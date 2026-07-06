@@ -114,7 +114,7 @@ FuturaOS is **closed-source** at the kernel level, but we welcome:
 
 ## 📜 License
 
-The core OS source code is **proprietary and closed-source**.  
+The core OS source code is **proprietary and closed-source**.  Author: Alexsey Pipichin (Алексей Пипичин).
 Third-party libraries (Mesa, LLVM, LVGL, etc.) are available under their respective open-source licenses.
 
 For commercial licensing, OEM partnerships, or custom builds, contact: **alexsey.websites.work@gmail.com**
