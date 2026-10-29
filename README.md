@@ -83,7 +83,7 @@ Switch instantly between three desktop modes without logging out:
 FuturaOS runs on x86_64 hardware today.
 
 **Tested on:**
-- **Laptops:** HP Pavilion G6 (Intel Core i5-3230M, HD Graphics 4000).
+- **Laptops:** HP Pavilion G6 (Intel Core i5-3230M, HD Graphics 4000); Acer N19C1; Digma Pro Cursus
 - **Virtual Machines:** QEMU/KVM with VirtIO-GPU acceleration.
 
 **In active development:**
@@ -125,7 +125,7 @@ For commercial licensing, OEM partnerships, or custom builds, contact: **alexsey
 ## 🔗 Links
 
 - [Official Website]("https://futuraos.ru")
-
+- futuraos.off@gmail.com
 ---
 
 > **Copyright © 2026 FuturaOS. All rights reserved.**
